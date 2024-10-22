@@ -19,42 +19,44 @@
     <main>
 
         <!-- Cinque Colonne -->
-        <div class="container-fluid"></div>
-        <h1>Bootstrap 5 Responsive Grid Advanced</h1>
-        <div class="row text-center row-cols-auto row-cols-lg-5 justify-content-center">
-            <div class="border">
-                <h1>Colonna 1</h1>
-                <p>colonna larga 1/5 partendo dai dispositivi medi</p>
-            </div>
-            <div class="border">
-                <h1>Colonna 2</h1>
-                <p>colonna larga 1/5 partendo dai dispositivi medi</p>
-            </div>
-            <div class="border">
-                <h1>Colonna 3</h1>
-                <p>colonna larga 1/5 partendo dai dispositivi medi</p>
-            </div>
-            <div class="border">
-                <h1>Colonna 4</h1>
-                <p>colonna larga 1/5 partendo dai dispositivi medi</p>
-            </div>
-            <div class="border">
-                <h1>Colonna 5</h1>
-                <p>colonna larga 1/5 partendo dai dispositivi medi</p>
-            </div>
-        </div>
-
-        <!-- Griglia Annidata -->
-        <div class="row">
-            <div class="col-12 col-lg-8 bg-primary p-3">
-                <h2>Colonna 1</h2>
-                <div class="row">
-                    <div class="col-12 col-lg-6 bg-warning">Colonna interna 1</div>
-                    <div class="col-12 col-lg-6 bg-white">Colonna interna 2</div>
+        <div class="container">
+            <div class="container-fluid"></div>
+            <h1>Bootstrap 5 Responsive Grid Advanced</h1>
+            <div class="row text-center row-cols-1 row-cols-lg-5 justify-content-center gx-5">
+                <div class="col border py-3">
+                    <h1>Colonna 1</h1>
+                    <p>colonna larga 1/5 partendo dai dispositivi medi</p>
+                </div>
+                <div class="col border py-3">
+                    <h1>Colonna 2</h1>
+                    <p>colonna larga 1/5 partendo dai dispositivi medi</p>
+                </div>
+                <div class="col border py-3">
+                    <h1>Colonna 3</h1>
+                    <p>colonna larga 1/5 partendo dai dispositivi medi</p>
+                </div>
+                <div class="col border py-3">
+                    <h1>Colonna 4</h1>
+                    <p>colonna larga 1/5 partendo dai dispositivi medi</p>
+                </div>
+                <div class="col border py-3">
+                    <h1>Colonna 5</h1>
+                    <p>colonna larga 1/5 partendo dai dispositivi medi</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 bg-secondary p-3">
-                <h2>Colonna 2</h2>
+
+            <!-- Griglia Annidata -->
+            <div class="row gx-5">
+                <div class="col-12 col-lg-8 bg-primary py-3">
+                    <h2>Colonna 1</h2>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 bg-warning">Colonna interna 1</div>
+                        <div class="col-12 col-lg-6 bg-white">Colonna interna 2</div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 bg-secondary py-3">
+                    <h2>Colonna 2</h2>
+                </div>
             </div>
         </div>
     </main>
